@@ -19,7 +19,7 @@ SECRET_KEY= os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['djangotubers.herokuapp.com']
-
+LOGIN_REDIRECT_URL = 'dashboard'
 
 # Application definition
 
